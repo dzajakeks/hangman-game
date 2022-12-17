@@ -1,0 +1,38 @@
+.hanger__container {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid white; */
+    width: 100%;
+    padding: 20em 0 0 0;
+    position: relative;
+}
+
+.hanger__bottom {
+    width: 200px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+}
+.hanger__straight {
+    background-color: white;
+    height: 300px;
+    width: 3px;
+    position: absolute;
+    top: 20px;
+}
+.hanger__rope__holder {
+    background-color: white;
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+.hanger__hanger {
+    background-color: white;
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    top: 2px;
+    left: 95%;
+}
